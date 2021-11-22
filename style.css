@@ -3821,7 +3821,6 @@ input[type="radio"]:checked+label:before {
     display: block;
     margin: 0 5px 10px;
 }
-
 .faqs-home-block .filter-faqs-tab .nav-tabs>li>a {
     padding: 12px 25px 11px;
     border: 1px solid #dddddd;
@@ -3839,8 +3838,8 @@ input[type="radio"]:checked+label:before {
     text-align: center;
     color: #212121;
     position: relative;
+    text-decoration: none !important;
 }
-
 @media only screen and (max-width: 767px) {
     .faqs-home-block .filter-faqs-tab .nav-tabs>li>a {
         font-size: 17px;
